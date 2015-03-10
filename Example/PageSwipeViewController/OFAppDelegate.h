@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PageSwipeViewController.h>
 
-@interface OFAppDelegate : UIResponder <UIApplicationDelegate>
+@interface OFAppDelegate : UIResponder
+<
+    UIApplicationDelegate,
+    PageSwipeViewControllerDataSource
+>
 
 @property (strong, nonatomic) UIWindow *window;
 

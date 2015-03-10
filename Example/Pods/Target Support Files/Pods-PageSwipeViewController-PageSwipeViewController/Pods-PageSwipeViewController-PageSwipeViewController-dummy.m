@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_PageSwipeViewController_PageSwipeViewController : NSObject
+@end
+@implementation PodsDummy_Pods_PageSwipeViewController_PageSwipeViewController
+@end
