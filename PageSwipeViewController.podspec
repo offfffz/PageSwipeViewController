@@ -10,19 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "PageSwipeViewController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PageSwipeViewController."
+  s.summary          = "A tab application which is swipable between tabs."
   s.description      = <<-DESC
-                       An optional longer description of PageSwipeViewController
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       PageSwipeViewController is an easy way to implement page based application.
+                        User can swipe through pages and the tab will focus on the recent page.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PageSwipeViewController"
+  s.homepage         = "https://github.com/offfffz/PageSwipeViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "offz" => "offfffz@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PageSwipeViewController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/offfffz'
+  s.source           = { :git => "https://github.com/offfffz/PageSwipeViewController.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/offfffz'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
