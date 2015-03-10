@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PageSwipeViewController', :exclusive => true do
+  pod "PageSwipeViewController", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PageSwipeViewController", :path => "../"
+
+  
+end
